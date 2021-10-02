@@ -1,0 +1,17 @@
+
+.display-cashgiven {
+    display:none;
+}
+
+#returnchange {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+   text-align: center;
+}
