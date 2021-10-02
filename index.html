@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cah register</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Cash register manager</h1>
+    <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return</p>
+    <label for="bill-amount">Bill amount:</label>
+    <input type="number" id="bill-amount" />
+    <button id="btnone">Next</button>
+
+    <label for="cash-given">Cash given:</label>
+    <input type="number" id="cash-given" />
+    <button id="btntwo">Check</button>
+
+    <label for="returnchange">Return change:</label>
+    <table id="returnchange">
+        <tr>
+            <th>
+                No. of notes
+            </th>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+            <td class="noofnotes"></td>
+        </tr>
+        <tr>
+            <th>
+                notes
+            </th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+</body>
+
+</html>
