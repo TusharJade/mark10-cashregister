@@ -10,8 +10,67 @@
 .container {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(42, 165, 114);
+    border-radius: 1rem;
 }
 
 body {
    text-align: center;
+   margin: 0;
+   background-color: #14dc89;
+ 
+}
+
+h1 {
+ padding: 2rem;
+ border-bottom: 1.4px solid;
+}
+
+p{
+    max-width: 420px;
+    margin: auto;
+    font-weight: bold;
+    padding-bottom: 4rem;
+    font-size: large;
+    padding-top: 1rem;
+}
+
+label {
+    font-size: 1.24rem;
+    padding: 2rem;
+    color: white; 
+}
+
+caption {
+ padding: 2rem;
+ padding-bottom: 1rem;
+ font-weight: bold;
+ font-size: large;
+
+}
+
+button {
+    padding: 0.3rem 1.2rem;
+    border-radius: 0.4rem;
+    margin: 1rem;
+}
+
+input {
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.2rem;
+    margin: 0.7rem;
+}
+
+table,th,td {
+    width: 100%;
+    padding: 1rem 1rem;
+    color: white;
+    border: 1px solid black;
+}
+
+
+#error-message {
+    font-size: large;
 }
